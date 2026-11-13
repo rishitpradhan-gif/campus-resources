@@ -1,0 +1,18 @@
+{
+  "tested": "2026-11-13T00:08:22.431Z",
+  "browser": "Chrome",
+  "checks": [
+    "search",
+    "save and reload",
+    "backup export",
+    "invalid import",
+    "guided graduate pathway",
+    "checklist",
+    "official resource drawer",
+    "malformed shared link",
+    "search injection",
+    "390px overflow",
+    "offline reload"
+  ],
+  "pageErrors": []
+}

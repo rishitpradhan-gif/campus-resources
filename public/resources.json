@@ -1,0 +1,710 @@
+{
+  "reviewed": "2026-11-12",
+  "notice": "Independent student guide. Confirm current provider details.",
+  "resources": [
+    {
+      "id": "pantry",
+      "name": "Basic Needs Food Pantry",
+      "category": "essentials",
+      "description": "Groceries and short-term food support. A good first stop when the week is stretching your budget.",
+      "url": "https://basicneeds.berkeley.edu/pantry",
+      "tags": [
+        "food",
+        "groceries",
+        "hungry",
+        "meals",
+        "essentials"
+      ],
+      "step": "Read the current visit instructions, complete the student profile if requested, and have your Cal ID or ID number ready.",
+      "audience": "all",
+      "cost": "No-cost food support",
+      "location": "b North, MLK Student Union",
+      "reviewed": "2026-11-12",
+      "noCost": true,
+      "featured": true,
+      "prepare": [
+        "Cal ID or Cal ID number",
+        "Current visiting instructions on the pantry page"
+      ]
+    },
+    {
+      "id": "basic-needs",
+      "name": "Basic Needs Center",
+      "category": "essentials",
+      "description": "A starting point for food, housing, and financial challenges, especially when several needs overlap.",
+      "url": "https://basicneeds.berkeley.edu/get-support/get-support",
+      "tags": [
+        "rent",
+        "emergency",
+        "food",
+        "money",
+        "housing",
+        "bills"
+      ],
+      "step": "Use the Basic Needs Assistance Form or check the Welcome Center and appointment options.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "MLK Student Union",
+      "reviewed": "2026-11-12",
+      "featured": true,
+      "prepare": [
+        "A brief description of the support you need",
+        "Questions you want help navigating"
+      ]
+    },
+    {
+      "id": "calfresh",
+      "name": "CalFresh application support",
+      "category": "essentials",
+      "description": "Help understanding the application process and getting connected to a CalFresh ambassador.",
+      "url": "https://basicneeds.berkeley.edu/services/food/calfresh-assistance/calfresh-application-assistance",
+      "tags": [
+        "food",
+        "groceries",
+        "snap",
+        "benefits",
+        "money"
+      ],
+      "step": "Review the official application-assistance page and book a support appointment. Eligibility is determined by the program.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "BNC Appointment Space",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "Read the current application guidance",
+        "Ask the adviser which documents apply to your situation"
+      ]
+    },
+    {
+      "id": "financial-aid",
+      "name": "Financial Aid & Scholarships",
+      "category": "essentials",
+      "description": "Find aid information, application guidance, and ways to ask questions about your financial aid.",
+      "url": "https://financialaid.berkeley.edu/",
+      "tags": [
+        "fafsa",
+        "scholarships",
+        "tuition",
+        "money",
+        "financial aid",
+        "cad aa"
+      ],
+      "step": "Start with the current student guidance and use the office’s official contact process.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "Your specific aid question",
+        "Relevant notices, kept private until you contact the official office"
+      ]
+    },
+    {
+      "id": "student-central",
+      "name": "Cal Student Central",
+      "category": "essentials",
+      "description": "A front door for enrollment, payments, financial aid, and the administrative questions between them.",
+      "url": "https://studentcentral.berkeley.edu/",
+      "tags": [
+        "hold",
+        "billing",
+        "tuition",
+        "enrollment",
+        "registration",
+        "refund",
+        "calcentral"
+      ],
+      "step": "Search the official guidance or open a case through Cal Student Central. Some actions require CalNet and a secure campus network.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "featured": true
+    },
+    {
+      "id": "housing",
+      "name": "Berkeley Housing",
+      "category": "essentials",
+      "description": "Explore university housing options, application information, and resident resources.",
+      "url": "https://housing.berkeley.edu/",
+      "tags": [
+        "rent",
+        "apartment",
+        "dorm",
+        "housing",
+        "roommate"
+      ],
+      "step": "Choose your student housing category and check the current application dates and requirements.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "Your student housing category",
+        "Your preferred term and housing needs"
+      ]
+    },
+    {
+      "id": "slc",
+      "name": "Student Learning Center",
+      "category": "study",
+      "description": "Peer learning, course support, and a place to build a more sustainable study routine.",
+      "url": "https://slc.berkeley.edu/",
+      "tags": [
+        "tutor",
+        "tutoring",
+        "study",
+        "exam",
+        "science",
+        "economics"
+      ],
+      "step": "Choose your subject or learning program, then check its current service format and schedule.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "Student Center",
+      "reviewed": "2026-11-12",
+      "featured": true
+    },
+    {
+      "id": "writing",
+      "name": "Writing support at the SLC",
+      "category": "study",
+      "description": "Work through a course writing assignment, from a rough idea to a draft you can revise.",
+      "url": "https://slc.berkeley.edu/programs/writing/weekly-tutoring",
+      "tags": [
+        "essay",
+        "paper",
+        "writing",
+        "draft",
+        "tutor"
+      ],
+      "step": "Check weekly tutoring, drop-in, and appointment options. Weekly tutoring has a request and orientation process.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "Student Center / virtual options",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "Your assignment prompt",
+        "Notes, an idea, or a working draft"
+      ]
+    },
+    {
+      "id": "math",
+      "name": "Math & statistics support",
+      "category": "study",
+      "description": "Find SLC subject support for mathematics and statistics courses.",
+      "url": "https://slc.berkeley.edu/programs/mathematics-and-statistics",
+      "tags": [
+        "calculus",
+        "math",
+        "statistics",
+        "stats",
+        "tutor",
+        "problem set"
+      ],
+      "step": "Check the supported courses and current tutoring schedule before visiting.",
+      "audience": "all",
+      "cost": "No-cost tutoring",
+      "location": "Student Center",
+      "reviewed": "2026-11-12",
+      "noCost": true,
+      "sourceNote": "University Statistics tutoring directory also describes free SLC drop-in support."
+    },
+    {
+      "id": "library",
+      "name": "Library spaces & hours",
+      "category": "study",
+      "description": "Find a library, check its current hours, and look for a place to work.",
+      "url": "https://www.lib.berkeley.edu/visit",
+      "tags": [
+        "quiet",
+        "study spot",
+        "library",
+        "room",
+        "desk",
+        "printing"
+      ],
+      "step": "Use the Library’s current location and hours information; opening times and room access vary.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "Libraries across campus",
+      "reviewed": "2026-11-12",
+      "featured": true
+    },
+    {
+      "id": "advising",
+      "name": "Academic advising & tutoring",
+      "category": "study",
+      "description": "Find the right academic advising route for your college, major, or course questions.",
+      "url": "https://www.berkeley.edu/academics/advising-tutoring/",
+      "tags": [
+        "advisor",
+        "adviser",
+        "major",
+        "schedule",
+        "classes",
+        "degree"
+      ],
+      "step": "Use Berkeley’s advising directory to identify your college or program’s advising office.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "Your college and major, if applicable",
+        "A short list of the decisions you need help with"
+      ]
+    },
+    {
+      "id": "caps",
+      "name": "Counseling & Psychological Services",
+      "category": "wellbeing",
+      "description": "Explore short-term counseling and the current ways to connect with a CAPS counselor.",
+      "url": "https://uhs.berkeley.edu/counseling/individual",
+      "tags": [
+        "therapy",
+        "counseling",
+        "stress",
+        "overwhelmed",
+        "anxiety",
+        "mental health"
+      ],
+      "step": "Read the official options for making an appointment. Availability and the appropriate service are determined by UHS.",
+      "audience": "all",
+      "cost": "No-charge counseling",
+      "location": "UHS / virtual options",
+      "reviewed": "2026-11-12",
+      "noCost": true,
+      "featured": true,
+      "prepare": [
+        "Questions about the current appointment process",
+        "For virtual counseling, check UHS location requirements"
+      ],
+      "sourceNote": "UHS states counseling is available at no charge; cancellation fees and other services can differ."
+    },
+    {
+      "id": "lets-talk",
+      "name": "Let’s Talk",
+      "category": "wellbeing",
+      "description": "An informal conversation with a counselor when you want a starting point, rather than formal counseling.",
+      "url": "https://uhs.berkeley.edu/node/1099",
+      "tags": [
+        "talk",
+        "stress",
+        "overwhelmed",
+        "counselor",
+        "drop in"
+      ],
+      "step": "Check the current Let’s Talk locations and schedule on UHS. This is an informal consultation service, not ongoing therapy.",
+      "audience": "all",
+      "cost": "No appointment fee",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "noCost": true
+    },
+    {
+      "id": "uhs",
+      "name": "University Health Services",
+      "category": "wellbeing",
+      "description": "Find student healthcare services, appointment information, and service-specific fees.",
+      "url": "https://uhs.berkeley.edu/medical",
+      "tags": [
+        "doctor",
+        "health",
+        "appointment",
+        "medical",
+        "pharmacy",
+        "ship"
+      ],
+      "step": "Review the relevant UHS service and its current access and billing information.",
+      "audience": "all",
+      "cost": "Fees depend on service and coverage",
+      "location": "Tang Center / service-specific locations",
+      "reviewed": "2026-11-12"
+    },
+    {
+      "id": "recwell",
+      "name": "Recreation & Wellbeing",
+      "category": "wellbeing",
+      "description": "Find a way to move, unwind, and meet people through recreation and campus activities.",
+      "url": "https://recwell.berkeley.edu/",
+      "tags": [
+        "gym",
+        "rsf",
+        "exercise",
+        "swim",
+        "fitness",
+        "sport",
+        "climb"
+      ],
+      "step": "Check student access, current schedules, and any program-specific registration or fees.",
+      "audience": "all",
+      "cost": "Many services included; some extra fees",
+      "location": "Facilities across campus",
+      "reviewed": "2026-11-12"
+    },
+    {
+      "id": "dsp",
+      "name": "Disabled Students’ Program",
+      "category": "access",
+      "description": "Learn about accommodations and the process for accessing disability-related support.",
+      "url": "https://dsp.berkeley.edu/",
+      "tags": [
+        "accommodations",
+        "disability",
+        "adhd",
+        "accessibility",
+        "dsp",
+        "exam support"
+      ],
+      "step": "Start with the new-student process or current-student guidance. DSP determines individual accommodations.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "Read DSP’s application and documentation guidance",
+        "Questions about the barriers you want to discuss"
+      ]
+    },
+    {
+      "id": "care",
+      "name": "PATH to Care Center",
+      "category": "access",
+      "description": "Find confidential support resources for people affected by sexual violence, harassment, or relationship violence.",
+      "url": "https://care.berkeley.edu/",
+      "tags": [
+        "confidential",
+        "survivor",
+        "harassment",
+        "relationship",
+        "advocacy"
+      ],
+      "step": "Use the Center’s official support and contact pages to explore available options.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "You can start by asking what support options are available",
+        "Choose what you are comfortable sharing with the official service"
+      ]
+    },
+    {
+      "id": "legal",
+      "name": "Student Legal Services",
+      "category": "access",
+      "description": "Find the university’s student legal consultation information and appointment process.",
+      "url": "https://sls.berkeley.edu/",
+      "tags": [
+        "lease",
+        "landlord",
+        "tenant",
+        "legal",
+        "contract",
+        "rights"
+      ],
+      "step": "Review the office’s scope and eligibility before requesting a consultation. This guide does not provide legal advice.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12"
+    },
+    {
+      "id": "advocate",
+      "name": "Student Advocate’s Office",
+      "category": "access",
+      "description": "Student-led casework for academic, financial-aid, conduct, and grievance concerns.",
+      "url": "https://advocate.studentorg.berkeley.edu/",
+      "tags": [
+        "appeal",
+        "grade",
+        "dispute",
+        "conduct",
+        "financial aid",
+        "advocate"
+      ],
+      "step": "Choose the relevant division and use its current contact instructions.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "A concise summary of your concern",
+        "Relevant dates and notices for your own reference"
+      ]
+    },
+    {
+      "id": "transit",
+      "name": "Bear Transit",
+      "category": "travel",
+      "description": "Find campus shuttle routes, maps, and the current service schedule.",
+      "url": "https://pt.berkeley.edu/public-transportation/bear-transit",
+      "tags": [
+        "bus",
+        "shuttle",
+        "commute",
+        "bart",
+        "transport",
+        "ride"
+      ],
+      "step": "Choose the route that matches your trip and check the current schedule and fare/access rules.",
+      "audience": "all",
+      "cost": "Check route and rider rules",
+      "location": "Campus and nearby connections",
+      "reviewed": "2026-11-12"
+    },
+    {
+      "id": "night",
+      "name": "Night Safety Shuttle",
+      "category": "travel",
+      "description": "Explore Berkeley’s night shuttle options for getting around after a late study session.",
+      "url": "https://nightsafety.berkeley.edu/nightsafety/nightshuttles",
+      "tags": [
+        "night",
+        "late",
+        "safe ride",
+        "shuttle",
+        "transport",
+        "home"
+      ],
+      "step": "Check the current route, timetable, and holiday exceptions. This guide does not show live arrivals.",
+      "audience": "all",
+      "cost": "Free night shuttle",
+      "location": "Published night-service routes",
+      "reviewed": "2026-11-12",
+      "noCost": true,
+      "featured": true
+    },
+    {
+      "id": "cal1",
+      "name": "Cal 1 Card",
+      "category": "travel",
+      "description": "Manage your campus ID, replacement-card information, and related access services.",
+      "url": "https://cal1card.berkeley.edu/",
+      "tags": [
+        "id",
+        "lost card",
+        "cal id",
+        "card",
+        "baypass"
+      ],
+      "step": "Choose the current card action you need on the official Cal 1 Card site.",
+      "audience": "all",
+      "cost": "Check action-specific fees",
+      "location": "See official page",
+      "reviewed": "2026-11-12"
+    },
+    {
+      "id": "tech",
+      "name": "Student Technology Services",
+      "category": "tech",
+      "description": "A starting point for tech support, Wi-Fi guidance, printing, and student technology resources.",
+      "url": "https://studenttech.berkeley.edu/",
+      "tags": [
+        "wifi",
+        "eduroam",
+        "computer",
+        "tech support",
+        "printing",
+        "software"
+      ],
+      "step": "Choose the relevant support topic and follow its official request instructions.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12"
+    },
+    {
+      "id": "devices",
+      "name": "Device lending",
+      "category": "tech",
+      "description": "Explore student device-loan programs when access to a computer is getting in the way.",
+      "url": "https://studenttech.berkeley.edu/devicelending",
+      "tags": [
+        "laptop",
+        "computer",
+        "loan",
+        "device",
+        "iclicker",
+        "technology"
+      ],
+      "step": "Check current lending programs, availability, and eligibility before making a request.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "What device access you need",
+        "Read the current loan duration and return requirements"
+      ]
+    },
+    {
+      "id": "career",
+      "name": "Career Engagement appointments",
+      "category": "career",
+      "description": "Talk through career questions and find support for your next application or decision.",
+      "url": "https://www.career.berkeley.edu/start-exploring/meet-with-us/",
+      "tags": [
+        "resume",
+        "cv",
+        "career",
+        "job",
+        "internship",
+        "interview"
+      ],
+      "step": "Review current appointment formats and book through the official service.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "prepare": [
+        "The question you want to work on",
+        "A draft résumé or role description, if relevant"
+      ]
+    },
+    {
+      "id": "handshake",
+      "name": "Handshake",
+      "category": "career",
+      "description": "Find jobs, internships, employer events, and Berkeley career opportunities.",
+      "url": "https://career.berkeley.edu/handshake/",
+      "tags": [
+        "job",
+        "internship",
+        "work",
+        "career",
+        "hiring",
+        "part time"
+      ],
+      "step": "Use Berkeley’s official Handshake sign-in instructions; student accounts are created through the university process.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "featured": true
+    },
+    {
+      "id": "research",
+      "name": "Undergraduate research & scholarships",
+      "category": "career",
+      "description": "Explore URAP, research programs, scholarships, and ways to get involved in research.",
+      "url": "https://research.berkeley.edu/",
+      "tags": [
+        "research",
+        "urap",
+        "lab",
+        "undergraduate",
+        "scholarship",
+        "summer"
+      ],
+      "step": "Choose a program and check its current eligibility, deadlines, and application guidance.",
+      "audience": "undergraduate",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "audienceLabel": "Undergraduate students"
+    },
+    {
+      "id": "international",
+      "name": "Berkeley International Office",
+      "category": "community",
+      "description": "Find international student advising, campus-transition guidance, and official immigration resources.",
+      "url": "https://internationaloffice.berkeley.edu/",
+      "tags": [
+        "international",
+        "visa",
+        "f1",
+        "j1",
+        "immigration",
+        "new student"
+      ],
+      "step": "Choose the student services route for your situation and contact an adviser for individual questions.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "audienceLabel": "International students and scholars"
+    },
+    {
+      "id": "eop",
+      "name": "Educational Opportunity Program",
+      "category": "community",
+      "description": "Explore academic counseling, community, and support programs through EOP.",
+      "url": "https://eop.berkeley.edu/",
+      "tags": [
+        "first gen",
+        "low income",
+        "eop",
+        "community",
+        "support"
+      ],
+      "step": "Read EOP’s student and eligibility guidance, then choose the service or appointment route that fits.",
+      "audience": "undergraduate",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "audienceLabel": "See EOP student eligibility"
+    },
+    {
+      "id": "transfer",
+      "name": "Transfer Student Center",
+      "category": "community",
+      "description": "A place to navigate the transition to Berkeley and connect with other transfer students.",
+      "url": "https://transfers.berkeley.edu/",
+      "tags": [
+        "transfer",
+        "new student",
+        "community",
+        "advising"
+      ],
+      "step": "Explore current transfer support, community programs, and advising options.",
+      "audience": "undergraduate",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "audienceLabel": "Transfer students"
+    },
+    {
+      "id": "parents",
+      "name": "Student Parent Center",
+      "category": "community",
+      "description": "Find student-parent resources, community, and guidance across family and academic life.",
+      "url": "https://studentparents.berkeley.edu/",
+      "tags": [
+        "parent",
+        "family",
+        "childcare",
+        "child",
+        "student parent"
+      ],
+      "step": "Start with the Student Parent Navigator or contact the Center about your needs.",
+      "audience": "all",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "audienceLabel": "Undergraduate and graduate student parents"
+    },
+    {
+      "id": "graduate",
+      "name": "Graduate Division resources",
+      "category": "community",
+      "description": "Find graduate-student guidance, support, writing, professional development, and community resources.",
+      "url": "https://grad.berkeley.edu/students/",
+      "tags": [
+        "graduate",
+        "grad",
+        "phd",
+        "masters",
+        "dissertation",
+        "gsi"
+      ],
+      "step": "Choose the current student resource area that matches your question.",
+      "audience": "graduate",
+      "cost": "Check with service",
+      "location": "See official page",
+      "reviewed": "2026-11-12",
+      "audienceLabel": "Graduate students"
+    }
+  ]
+}

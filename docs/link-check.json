@@ -1,0 +1,194 @@
+[
+  {
+    "id": "pantry",
+    "url": "https://basicneeds.berkeley.edu/pantry",
+    "result": "200 https://basicneeds.berkeley.edu/pantry",
+    "error": ""
+  },
+  {
+    "id": "basic-needs",
+    "url": "https://basicneeds.berkeley.edu/get-support/get-support",
+    "result": "200 https://basicneeds.berkeley.edu/get-support/get-support",
+    "error": ""
+  },
+  {
+    "id": "calfresh",
+    "url": "https://basicneeds.berkeley.edu/services/food/calfresh-assistance/calfresh-application-assistance",
+    "result": "200 https://basicneeds.berkeley.edu/services/food/calfresh-assistance/calfresh-application-assistance",
+    "error": ""
+  },
+  {
+    "id": "financial-aid",
+    "url": "https://financialaid.berkeley.edu/",
+    "result": "200 https://financialaid.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "student-central",
+    "url": "https://studentcentral.berkeley.edu/",
+    "result": "200 https://studentcentral.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "housing",
+    "url": "https://housing.berkeley.edu/",
+    "result": "200 https://housing.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "slc",
+    "url": "https://slc.berkeley.edu/",
+    "result": "200 https://slc.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "writing",
+    "url": "https://slc.berkeley.edu/programs/writing/weekly-tutoring",
+    "result": "200 https://slc.berkeley.edu/programs/writing/weekly-tutoring",
+    "error": ""
+  },
+  {
+    "id": "math",
+    "url": "https://slc.berkeley.edu/programs/mathematics-and-statistics",
+    "result": "200 https://slc.berkeley.edu/mathematics-and-statistics",
+    "error": ""
+  },
+  {
+    "id": "library",
+    "url": "https://www.lib.berkeley.edu/visit",
+    "result": "200 https://www.lib.berkeley.edu/visit",
+    "error": ""
+  },
+  {
+    "id": "advising",
+    "url": "https://www.berkeley.edu/academics/advising-tutoring/",
+    "result": "200 https://www.berkeley.edu/academics/advising-tutoring/",
+    "error": ""
+  },
+  {
+    "id": "caps",
+    "url": "https://uhs.berkeley.edu/counseling/individual",
+    "result": "200 https://uhs.berkeley.edu/counseling/individual",
+    "error": ""
+  },
+  {
+    "id": "lets-talk",
+    "url": "https://uhs.berkeley.edu/node/1099",
+    "result": "200 https://uhs.berkeley.edu/node/1099",
+    "error": ""
+  },
+  {
+    "id": "uhs",
+    "url": "https://uhs.berkeley.edu/medical",
+    "result": "200 https://uhs.berkeley.edu/medical",
+    "error": ""
+  },
+  {
+    "id": "recwell",
+    "url": "https://recwell.berkeley.edu/",
+    "result": "200 https://recwell.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "dsp",
+    "url": "https://dsp.berkeley.edu/",
+    "result": "200 https://dsp.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "care",
+    "url": "https://care.berkeley.edu/",
+    "result": "200 https://care.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "legal",
+    "url": "https://sls.berkeley.edu/",
+    "result": "200 https://sls.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "advocate",
+    "url": "https://advocate.studentorg.berkeley.edu/",
+    "result": "200 https://advocate.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "transit",
+    "url": "https://pt.berkeley.edu/public-transportation/bear-transit",
+    "result": "200 https://pt.berkeley.edu/public-transportation/bear-transit",
+    "error": ""
+  },
+  {
+    "id": "night",
+    "url": "https://nightsafety.berkeley.edu/nightsafety/nightshuttles",
+    "result": "200 https://nightsafety.berkeley.edu/nightsafety/nightshuttles",
+    "error": ""
+  },
+  {
+    "id": "cal1",
+    "url": "https://cal1card.berkeley.edu/",
+    "result": "200 https://cal1card.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "tech",
+    "url": "https://studenttech.berkeley.edu/",
+    "result": "200 https://studenttech.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "devices",
+    "url": "https://studenttech.berkeley.edu/devicelending",
+    "result": "200 https://studenttech.berkeley.edu/devicelending",
+    "error": ""
+  },
+  {
+    "id": "career",
+    "url": "https://www.career.berkeley.edu/start-exploring/meet-with-us/",
+    "result": "200 https://www.career.berkeley.edu/start-exploring/meet-with-us/",
+    "error": ""
+  },
+  {
+    "id": "handshake",
+    "url": "https://career.berkeley.edu/handshake/",
+    "result": "200 https://career.berkeley.edu/handshake/",
+    "error": ""
+  },
+  {
+    "id": "research",
+    "url": "https://research.berkeley.edu/",
+    "result": "200 https://research.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "international",
+    "url": "https://internationaloffice.berkeley.edu/",
+    "result": "200 https://internationaloffice.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "eop",
+    "url": "https://eop.berkeley.edu/",
+    "result": "200 https://eop.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "transfer",
+    "url": "https://transfers.berkeley.edu/",
+    "result": "200 https://transfers.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "parents",
+    "url": "https://studentparents.berkeley.edu/",
+    "result": "200 https://studentparents.berkeley.edu/",
+    "error": ""
+  },
+  {
+    "id": "graduate",
+    "url": "https://grad.berkeley.edu/students/",
+    "result": "200 https://grad.berkeley.edu/students/",
+    "error": ""
+  }
+]

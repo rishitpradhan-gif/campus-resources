@@ -1,0 +1,16 @@
+import {chromium} from 'playwright';import assert from 'node:assert/strict';import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome',headless:true});const context=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+await page.goto('http://127.0.0.1:4450');await page.locator('.resource-card').first().waitFor();assert.equal(await page.locator('.resource-card').count(),9);
+await page.locator('#search').fill('I need groceries');await page.waitForTimeout(200);assert.ok(await page.locator('#resources').innerText().then(t=>t.includes('Food Pantry')));
+await page.locator('[data-save="pantry"]').click();await page.reload();assert.equal(await page.locator('#saved-count').innerText(),'1');
+await page.locator('#saved-nav').click();assert.ok((await page.locator('#backpack-content').innerText()).includes('Food Pantry'));const download=page.waitForEvent('download');await page.locator('#backup-export').click();assert.equal((await download).suggestedFilename(),'campus-backpack.json');
+await page.locator('#backup-import').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{}')});await page.waitForTimeout(100);assert.match(await page.locator('#backup-status').innerText(),/backup file/);await page.keyboard.press('Escape');
+await page.locator('[data-guide]').first().click();await page.locator('[data-path="food"]').click();await page.locator('[data-level="graduate"]').click();await page.locator('[data-done]').first().check();await page.locator('#save-guide').click();await page.keyboard.press('Escape');
+await page.locator('#reset').click();await page.locator('#resources [data-detail="pantry"]').click();assert.equal(await page.locator('#detail .primary').getAttribute('href'),'https://basicneeds.berkeley.edu/pantry');await page.keyboard.press('Escape');
+await page.goto('http://127.0.0.1:4450/#resource=%ZZ');await page.locator('#resources .resource-card').first().waitFor();
+await page.locator('#search').fill('<script>alert(1)</script>');await page.waitForTimeout(200);assert.equal(await page.locator('#empty').isVisible(),true);await page.locator('#empty-reset').click();
+await page.screenshot({path:'/private/tmp/campus-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/private/tmp/campus-mobile.png',fullPage:true});
+await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload();await page.waitForTimeout(300);await context.setOffline(true);await page.reload();await page.locator('#resources .resource-card').first().waitFor();assert.ok(await page.locator('#offline').isVisible());await context.setOffline(false);
+assert.deepEqual(errors,[]);await writeFile(new URL('../docs/browser-validation.json',import.meta.url),JSON.stringify({tested:new Date().toISOString(),browser:'Chrome',checks:['search','save and reload','backup export','invalid import','guided graduate pathway','checklist','official resource drawer','malformed shared link','search injection','390px overflow','offline reload'],pageErrors:errors},null,2));console.log('Browser checks passed');
+}finally{await browser.close();}
