@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-12",
+  "project": "campus-resources",
+  "deployment": "dpl_4GUut2QMq6E6Mug2oxhVEKGGCwKd",
+  "state": "READY",
+  "url": "https://campus-resources-nine.vercel.app",
+  "audience": "Existing Vercel authentication preserved; public-access choice pending",
+  "source": "https://github.com/rishitpradhan-gif/campus-resources",
+  "automaticGitDeployments": false,
+  "gitConnectionFailure": "Vercel rejected connection to the new GitHub repository. Incorrect previous Drip connection removed. CLI deployment succeeded.",
+  "browserValidation": "Local Chrome, desktop and 390px mobile, core interactions and offline reload passed. Hosted app body is protected from anonymous requests.",
+  "rollbackDeployment": "dpl_LWzfTkBYNS7hcw2KQ4QwWTrRGx9G"
+}
